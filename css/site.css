@@ -2,10 +2,7 @@ body{
 	padding:70px;
 
 }
-header,footer, nav div, section, aside, article{
-	border:1px dotted #f0f0f0;
-	border-radius:5px;
-}
+
 .navbar .container .topBtn{
 	float: right;
 	text-decoration: none;
@@ -62,8 +59,8 @@ header,footer, nav div, section, aside, article{
 }
 
 .nav-bottom .navTitle{
-	border:1px solid;
-	height: 50px;	
+
+	height: 100px;
 	text-align: center;
 	line-height: 50px;
 	font-size: 18px;
