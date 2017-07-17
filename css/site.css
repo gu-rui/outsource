@@ -1,0 +1,66 @@
+body{
+	padding:70px;
+
+}
+header,footer, nav div, section, aside, article{
+	border:1px dotted #f0f0f0;
+	border-radius:5px;
+}
+.navbar .container .topBtn{
+	float: right;
+	text-decoration: none;
+	padding: 6px 6px ;
+	margin: 6px 10px 0 0;
+	width: 80px;
+	text-align: center;
+	font-size: 16px;
+    font-weight: normal;
+    font-family: 微软雅黑;
+}
+.navbar .container a{
+	color: #7c7c7c;
+	border:1px solid #dddddd; 
+}
+.navbar .container a:hover{
+	border:1px solid #2a96ff;
+	color: #2a96ff;
+}
+
+.navbar .container .collection{
+	float: left;
+}
+
+.navbar .container .homePage{
+	float: left;
+}
+
+
+.handSearch .container .btnSub{
+	float: right;
+}
+.handSearch .container .inSearch{
+	float: right;
+	margin-right: -100px;
+}
+.content .Title{
+	margin: 10px auto;
+}
+.content a{
+	text-decoration: none;
+	color: #7c7c7c;
+	display: block;
+	width: 100%;
+}
+
+.content .navTitle{
+	border:1px solid;
+	height: 50px;	
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	padding: 0;
+}
+.content .active:hover{
+	background-color:#2a96ff; 
+	color: #ffffff;
+}
