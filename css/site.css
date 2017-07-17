@@ -1,4 +1,7 @@
+.navbar .container .navTop{
+    height: 30px;
 
+}
 .navbar .container .topBtn{
 	text-decoration: none;
 	padding: 3px 6px ;
@@ -9,6 +12,7 @@
     font-weight: normal;
     font-family: "微软雅黑";
 }
+
 .navbar .container a{
 	color: #7c7c7c;
 	border:1px solid #dddddd; 
@@ -22,8 +26,12 @@
 	height: 500px;
 }
 
-
-
+.navbar .nav-bottom .handSearch .container .row .logoImg{
+    margin-right: 10px;
+}
+.navbar .nav-bottom .handSearch .container .row span{
+    font-size: 28px;
+}
 .handSearch .container .inSearch{
 	float: right;
 	margin-right: -100px;
@@ -44,7 +52,6 @@
 }
 
 .nav-bottom .navTitle{
-	height: 100px;
 	text-align: center;
 	line-height: 50px;
 	font-size: 18px;
@@ -53,7 +60,9 @@
 .nav-bottom .nav-menu .active:hover{
 	background-color:#13439d;
 }
-
+.content .row{
+    margin: 0;
+}
 .content .container .handTitle{
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -90,21 +99,25 @@
 	height: 100px;
 }
 .content .container .code{
-	position: absolute;
+	position: fixed;
 	width:100px;
 	height:100px;
 	right: 3%;
-	top:30%;
+	top:60%;
 }
-.footer {
+.memberList {
 	font-size: 18px;
 	text-align: center;
 	margin: 10px;
 }
-.footer  a{
+.memberList  a{
 	text-decoration: none;
 }
-.footer .container .row li{
+.memberList .container .row li{
 	border:1px solid ;
 	list-style: none;
+}
+
+.footer .container .row{
+    text-align: center;
 }
