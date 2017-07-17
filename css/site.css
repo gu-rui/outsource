@@ -1,10 +1,5 @@
-body{
-	padding:70px;
-
-}
 
 .navbar .container .topBtn{
-	float: right;
 	text-decoration: none;
 	padding: 3px 6px ;
 	margin: 8px 10px 0 0;
@@ -22,22 +17,13 @@ body{
 	border:1px solid #2a96ff;
 	color: #2a96ff;
 }
-.navbar .container .collection{
-	float: left;
-}
-
-.navbar .container .homePage{
-	float: left;
-}
 .navbar .nav-bottom{
 	background: url('../img/banner.jpg') no-repeat 50% 50%;;
 	height: 500px;
 }
 
 
-.handSearch .container .btnSub{
-	float: right;
-}
+
 .handSearch .container .inSearch{
 	float: right;
 	margin-right: -100px;
@@ -58,7 +44,6 @@ body{
 }
 
 .nav-bottom .navTitle{
-
 	height: 100px;
 	text-align: center;
 	line-height: 50px;
@@ -67,7 +52,15 @@ body{
 }
 .nav-bottom .nav-menu .active:hover{
 	background-color:#13439d;
+}
 
+.content .container .handTitle{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	margin-top: 10px;
+	width:100px;
+	height:50px;
+	text-align: center;
 	background-color: #2a96ff;
 }
 .content .container .handTitle span{
