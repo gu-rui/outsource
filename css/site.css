@@ -1,11 +1,12 @@
 .navbar .container .navTop{
-    height: 30px;
-
+    height: 40px;
+}
+.navbar .container .navTop .navTopLeft,.navTopRight{
+    margin-top: 8px;
 }
 .navbar .container .topBtn{
 	text-decoration: none;
-	padding: 3px 6px ;
-	margin: 8px 10px 0 0;
+	padding: 3px 10px ;
 	width: 80px;
 	text-align: center;
 	font-size: 16px;
@@ -13,11 +14,11 @@
     font-family: "微软雅黑";
 }
 
-.navbar .container a{
+.navbar .container .navTop a{
 	color: #7c7c7c;
-	border:1px solid #dddddd; 
+	border:1px solid #dddddd;
 }
-.navbar .container a:hover{
+.navbar .container .navTop a:hover{
 	border:1px solid #2a96ff;
 	color: #2a96ff;
 }
@@ -42,19 +43,21 @@
 	background: #1e50ae;
 }
 .nav-bottom .Title{
-	margin: 10px auto;
 }
 .nav-bottom .nav-menu a{
 	text-decoration: none;
 	color: white;
 	display: block;
 	width: 100%;
+    height: 100%;
 }
 
 .nav-bottom .navTitle{
-	text-align: center;
-	line-height: 50px;
+
+    text-align: center;
+	line-height: 95px;
 	font-size: 18px;
+    height: 100px;
 	padding: 0;
 }
 .nav-bottom .nav-menu .active:hover{
