@@ -6,13 +6,13 @@ body{
 .navbar .container .topBtn{
 	float: right;
 	text-decoration: none;
-	padding: 6px 6px ;
-	margin: 6px 10px 0 0;
+	padding: 3px 6px ;
+	margin: 8px 10px 0 0;
 	width: 80px;
 	text-align: center;
 	font-size: 16px;
     font-weight: normal;
-    font-family: '微软雅黑';
+    font-family: "微软雅黑";
 }
 .navbar .container a{
 	color: #7c7c7c;
@@ -22,7 +22,6 @@ body{
 	border:1px solid #2a96ff;
 	color: #2a96ff;
 }
-
 .navbar .container .collection{
 	float: left;
 }
@@ -69,4 +68,50 @@ body{
 .nav-bottom .nav-menu .active:hover{
 	background-color:#13439d;
 
+	background-color: #2a96ff;
+}
+.content .container .handTitle span{
+	font-size:18px;
+	color: #FFFFFF;
+	line-height: 3;
+}
+.content .container .footHr{
+	border-bottom: 2px solid #2a96ff;
+}
+.content .container .carouselImg{
+	margin: 5px;
+}
+
+.content .container .inLine{
+	border-bottom: 1px dashed #2a96ff;
+	overflow: hidden;
+	letter-spacing: 1px;
+	line-height: 3;
+}
+.content .container .inLine a{
+	text-decoration: none;
+	font-size: 16px;
+}
+.content .container .qrCode{
+	width: 100px;
+	height: 100px;
+}
+.content .container .code{
+	position: absolute;
+	width:100px;
+	height:100px;
+	right: 3%;
+	top:30%;
+}
+.footer {
+	font-size: 18px;
+	text-align: center;
+	margin: 10px;
+}
+.footer  a{
+	text-decoration: none;
+}
+.footer .container .row li{
+	border:1px solid ;
+	list-style: none;
 }
