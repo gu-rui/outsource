@@ -72,7 +72,9 @@
 	border-bottom: 2px solid #2a96ff;
 }
 .content .container .carouselImg{
-	margin: 5px;
+	width:360px;
+	overflow: hidden;
+	margin-top: 5px;
 }
 
 .content .container .inLine{
